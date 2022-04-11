@@ -1,7 +1,42 @@
 .App {
-  text-align:center;
+  text-align: center;
+  font-weight:bold;
 }
-.addScore > button{
-  margin:0 20px;
+.addScore > button {
+  margin: 0 20px;
+}
+.addScore {
+  color: rgb(62, 100, 5);
+}
+.addWicketbtn {
+  background-color: red;
+  color: white;
+  margin: 2%;
+    font-weight:bold;
+
+  padding: 5px;
+  border: none;
+  border-radius: 15%;
+}
+.addScore6,
+.addScore1,
+.addScore4 {
+  background-color: green;
+  color: white;
+  margin: 2%;
+  padding: 5px;
+  border: none;
+    font-weight:bold;
+
+  border-radius: 15%;
+}
+.overcount {
+  margin: 0 2%;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 15%;
+    font-weight:bold;
 
 }

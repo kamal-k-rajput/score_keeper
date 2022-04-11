@@ -110,6 +110,7 @@ function App() {
         Add Wicket
         {/* Increase the count of wicket */}
         <button
+          className="addWicketbtn"
           onClick={() => {
             handleWicketCount(1);
           }}
